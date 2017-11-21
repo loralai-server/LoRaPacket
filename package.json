@@ -1,0 +1,40 @@
+{
+  "name": "lorapacket",
+  "version": "1.0.0",
+  "description": "LoRa WAN packet encode / decoder",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha src/test/index.test.js",
+    "build": "jsdoc2md --template DOCUMENTATION.hbs --files src/index.js > DOCUMENTATION.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loralai-server/LoRaPacket.git"
+  },
+  "keywords": [
+    "lora",
+    "lorawan",
+    "packet",
+    "encode",
+    "decoder"
+  ],
+  "author": "Alexandru Radovici <alexandru.radovici@wyliodrin.com>",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/loralai-server/LoRaPacket/issues"
+  },
+  "homepage": "https://github.com/loralai-server/LoRaPacket#readme",
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "jsdoc-to-markdown": "^3.0.2",
+    "mocha": "^4.0.1",
+    "uuid": "^3.1.0"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "extend": "^3.0.1",
+    "lodash": "^4.17.4",
+    "node-aes-cmac": "^0.1.1",
+    "validator": "^9.1.1"
+  }
+}
