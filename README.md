@@ -46,7 +46,7 @@ var nwkSKey = getNwkSKey ();
 var appSKey = getAppSKey ();
 
 var packet = new LoRaPacket ({
-        mtype: LoRaPacket.MTYPE.MTYPE_UNCONFIRMEWD_DOWNLINK,
+        mtype: LoRaPacket.MTYPE.MTYPE_UNCONFIRMEWD_DATA_DOWN,
         devAddr: '010A020A',
         fCtrl:
         {
