@@ -1,6 +1,6 @@
 {
   "name": "lorapacket",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LoRa WAN packet encode / decoder",
   "main": "src/index.js",
   "scripts": {
