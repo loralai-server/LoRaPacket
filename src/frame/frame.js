@@ -363,7 +363,7 @@ function verifyDevAddr (valueDevAddr)
 function verifyFCnt (valueFCnt)
 {
 	var verified = true;
-	if (!(typeof valuefCnt === 'number' && valueFCnt >= 0 && valueFCnt <= MAX_FRAME_FCNT))
+	if (!(typeof valueFCnt === 'number' && valueFCnt >= 0 && valueFCnt <= MAX_FRAME_FCNT))
 	{
 		debug ('verifyFCnt: fCnt is out of bounds, '+valueFCnt);
 		verified = false;
